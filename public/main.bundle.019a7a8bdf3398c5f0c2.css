@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v4.3.0 (https://getbootstrap.com/)
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -392,7 +392,7 @@
 
 .CatalogList-price {
     color: orange;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
 }
 
@@ -801,7 +801,11 @@
         font-size: 18px;
         text-align: right;
     }
-}.BasketPage-wrapper {
+}.BasketPage{
+    min-height: 480px;
+}
+
+.BasketPage-wrapper {
     margin-top: 120px;
     margin-bottom: 50px;
     background-color: #5dbbc1;
@@ -923,6 +927,11 @@
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 18px;
+}
+
+.connect-error {
+    color: yellow;
+    text-align: center;
 }.headerLink {
     text-align: center;
     background-color: #130e27;
@@ -1017,7 +1026,7 @@
 }.wrapper {
     display: flex;
     flex-direction: column;
-    height: 100vh;/*100px*/
+    height: 100px/*100vh*/;
     color: white;
 }
 
@@ -1068,6 +1077,7 @@
 }.CatalogShowItem {
     margin-top: 220px;
     box-shadow: 0 0 15px 0 rgba(22,35,23,.4);
+    margin-bottom: 97px;
 }
 
 .CatalogShowItem-img-wrapper {
@@ -1138,4 +1148,8 @@
         margin-top: 10px;
     }
 }
-/*# sourceMappingURL=main.bundle.10f74d8dff4249637abd.css.map*/
+
+.CatalogPage-Loader-2 {
+    margin-top: 120px;
+}
+/*# sourceMappingURL=main.bundle.019a7a8bdf3398c5f0c2.css.map*/
