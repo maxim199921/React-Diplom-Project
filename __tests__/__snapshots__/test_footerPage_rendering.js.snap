@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`тест на рендеринг футера 1`] = `
+<div
+  className="footerLink"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row no-gutters align-items-center footer-wrapper"
+    >
+      <div
+        className="col-12 col-md-8 footerLink-info"
+      >
+        Developed by: M.C.Chupilin
+      </div>
+      <div
+        className="col-md-4 footerLink-logo"
+      />
+    </div>
+  </div>
+</div>
+`;

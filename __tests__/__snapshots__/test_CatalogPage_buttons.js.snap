@@ -1,0 +1,1057 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`работа кнопок каталога 1`] = `
+<div
+  className="CatalogPage"
+>
+  <div
+    className="container CatalogPage-container-shad"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 CatalogPage-Text"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-12 col-sm-3"
+          >
+            <h2
+              className="CatalogPage-header"
+            >
+              Catalog
+            </h2>
+          </div>
+          <div
+            className="col-12 col-sm-9 align-self-center CatalogPage-wrapper-shad"
+          >
+            <form
+              className="form-inline"
+            >
+              <input
+                className="btn btn-primary CatalogPage-header-btn"
+                onClick={[Function]}
+                type="button"
+                value="GO"
+              />
+              <input
+                className="form-control CatalogPage-header-search"
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="search"
+                type="text"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 col-sm-3 CatalogPage-Filter CatalogPage-wrapper-shad-Filter"
+      >
+        <label
+          className="radio"
+          htmlFor="SHOW_ALL_RADIO"
+        >
+          <input
+            checked={true}
+            id="SHOW_ALL_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="SHOW ALL"
+          />
+          <div
+            className="radio__text"
+          >
+            SHOW ALL
+          </div>
+        </label>
+        <label
+          className="radio"
+          htmlFor="LAPTOR_RADIO"
+        >
+          <input
+            checked={false}
+            id="LAPTOR_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="LAPTOR"
+          />
+          <div
+            className="radio__text"
+          >
+            LAPTOP
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="PHONE_RADIO"
+        >
+          <input
+            checked={false}
+            id="PHONE_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="PHONE"
+          />
+          <div
+            className="radio__text"
+          >
+            PHONE
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="TABLET_RADIO"
+        >
+          <input
+            checked={false}
+            id="TABLET_RADIO"
+            name="TABLET_RADIO"
+            onChange={[Function]}
+            type="radio"
+            value="TABLET"
+          />
+          <div
+            className="radio__text"
+          >
+            TABLET
+          </div>
+        </label>
+        <br />
+        <a
+          aria-current={null}
+          className="btn btn-primary btn-primary-buy"
+          href="#/basketpage"
+          onClick={[Function]}
+        >
+          Buy
+        </a>
+      </div>
+      <div
+        className="col-12 col-sm-9 CatalogPage-List"
+      >
+        <div
+          className="CatalogPage-Loader"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-12"
+              >
+                <h1
+                  className="CatalogPage-Text-Loading"
+                >
+                  ...Loading
+                  <div
+                    className="loader-container"
+                  >
+                    <div
+                      className="loader-1"
+                    />
+                  </div>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`работа кнопок каталога 2`] = `
+<div
+  className="CatalogPage"
+>
+  <div
+    className="container CatalogPage-container-shad"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 CatalogPage-Text"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-12 col-sm-3"
+          >
+            <h2
+              className="CatalogPage-header"
+            >
+              Catalog
+            </h2>
+          </div>
+          <div
+            className="col-12 col-sm-9 align-self-center CatalogPage-wrapper-shad"
+          >
+            <form
+              className="form-inline"
+            >
+              <input
+                className="btn btn-primary CatalogPage-header-btn"
+                onClick={[Function]}
+                type="button"
+                value="GO"
+              />
+              <input
+                className="form-control CatalogPage-header-search"
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="search"
+                type="text"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 col-sm-3 CatalogPage-Filter CatalogPage-wrapper-shad-Filter"
+      >
+        <label
+          className="radio"
+          htmlFor="SHOW_ALL_RADIO"
+        >
+          <input
+            checked={true}
+            id="SHOW_ALL_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="SHOW ALL"
+          />
+          <div
+            className="radio__text"
+          >
+            SHOW ALL
+          </div>
+        </label>
+        <label
+          className="radio"
+          htmlFor="LAPTOR_RADIO"
+        >
+          <input
+            checked={false}
+            id="LAPTOR_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="LAPTOR"
+          />
+          <div
+            className="radio__text"
+          >
+            LAPTOP
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="PHONE_RADIO"
+        >
+          <input
+            checked={false}
+            id="PHONE_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="PHONE"
+          />
+          <div
+            className="radio__text"
+          >
+            PHONE
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="TABLET_RADIO"
+        >
+          <input
+            checked={false}
+            id="TABLET_RADIO"
+            name="TABLET_RADIO"
+            onChange={[Function]}
+            type="radio"
+            value="TABLET"
+          />
+          <div
+            className="radio__text"
+          >
+            TABLET
+          </div>
+        </label>
+        <br />
+        <a
+          aria-current={null}
+          className="btn btn-primary btn-primary-buy"
+          href="#/basketpage"
+          onClick={[Function]}
+        >
+          Buy
+        </a>
+      </div>
+      <div
+        className="col-12 col-sm-9 CatalogPage-List"
+      >
+        <div
+          className="CatalogPage-Loader"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-12"
+              >
+                <h1
+                  className="CatalogPage-Text-Loading"
+                >
+                  ...Loading
+                  <div
+                    className="loader-container"
+                  >
+                    <div
+                      className="loader-1"
+                    />
+                  </div>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`работа кнопок каталога 3`] = `
+<div
+  className="CatalogPage"
+>
+  <div
+    className="container CatalogPage-container-shad"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 CatalogPage-Text"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-12 col-sm-3"
+          >
+            <h2
+              className="CatalogPage-header"
+            >
+              Catalog
+            </h2>
+          </div>
+          <div
+            className="col-12 col-sm-9 align-self-center CatalogPage-wrapper-shad"
+          >
+            <form
+              className="form-inline"
+            >
+              <input
+                className="btn btn-primary CatalogPage-header-btn"
+                onClick={[Function]}
+                type="button"
+                value="GO"
+              />
+              <input
+                className="form-control CatalogPage-header-search"
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="search"
+                type="text"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 col-sm-3 CatalogPage-Filter CatalogPage-wrapper-shad-Filter"
+      >
+        <label
+          className="radio"
+          htmlFor="SHOW_ALL_RADIO"
+        >
+          <input
+            checked={true}
+            id="SHOW_ALL_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="SHOW ALL"
+          />
+          <div
+            className="radio__text"
+          >
+            SHOW ALL
+          </div>
+        </label>
+        <label
+          className="radio"
+          htmlFor="LAPTOR_RADIO"
+        >
+          <input
+            checked={false}
+            id="LAPTOR_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="LAPTOR"
+          />
+          <div
+            className="radio__text"
+          >
+            LAPTOP
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="PHONE_RADIO"
+        >
+          <input
+            checked={false}
+            id="PHONE_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="PHONE"
+          />
+          <div
+            className="radio__text"
+          >
+            PHONE
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="TABLET_RADIO"
+        >
+          <input
+            checked={false}
+            id="TABLET_RADIO"
+            name="TABLET_RADIO"
+            onChange={[Function]}
+            type="radio"
+            value="TABLET"
+          />
+          <div
+            className="radio__text"
+          >
+            TABLET
+          </div>
+        </label>
+        <br />
+        <a
+          aria-current={null}
+          className="btn btn-primary btn-primary-buy"
+          href="#/basketpage"
+          onClick={[Function]}
+        >
+          Buy
+        </a>
+      </div>
+      <div
+        className="col-12 col-sm-9 CatalogPage-List"
+      >
+        <div
+          className="CatalogPage-Loader"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-12"
+              >
+                <h1
+                  className="CatalogPage-Text-Loading"
+                >
+                  ...Loading
+                  <div
+                    className="loader-container"
+                  >
+                    <div
+                      className="loader-1"
+                    />
+                  </div>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`работа кнопок каталога 4`] = `
+<div
+  className="CatalogPage"
+>
+  <div
+    className="container CatalogPage-container-shad"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 CatalogPage-Text"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-12 col-sm-3"
+          >
+            <h2
+              className="CatalogPage-header"
+            >
+              Catalog
+            </h2>
+          </div>
+          <div
+            className="col-12 col-sm-9 align-self-center CatalogPage-wrapper-shad"
+          >
+            <form
+              className="form-inline"
+            >
+              <input
+                className="btn btn-primary CatalogPage-header-btn"
+                onClick={[Function]}
+                type="button"
+                value="GO"
+              />
+              <input
+                className="form-control CatalogPage-header-search"
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="search"
+                type="text"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 col-sm-3 CatalogPage-Filter CatalogPage-wrapper-shad-Filter"
+      >
+        <label
+          className="radio"
+          htmlFor="SHOW_ALL_RADIO"
+        >
+          <input
+            checked={false}
+            id="SHOW_ALL_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="SHOW ALL"
+          />
+          <div
+            className="radio__text"
+          >
+            SHOW ALL
+          </div>
+        </label>
+        <label
+          className="radio"
+          htmlFor="LAPTOR_RADIO"
+        >
+          <input
+            checked={true}
+            id="LAPTOR_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="LAPTOR"
+          />
+          <div
+            className="radio__text"
+          >
+            LAPTOP
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="PHONE_RADIO"
+        >
+          <input
+            checked={false}
+            id="PHONE_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="PHONE"
+          />
+          <div
+            className="radio__text"
+          >
+            PHONE
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="TABLET_RADIO"
+        >
+          <input
+            checked={false}
+            id="TABLET_RADIO"
+            name="TABLET_RADIO"
+            onChange={[Function]}
+            type="radio"
+            value="TABLET"
+          />
+          <div
+            className="radio__text"
+          >
+            TABLET
+          </div>
+        </label>
+        <br />
+        <a
+          aria-current={null}
+          className="btn btn-primary btn-primary-buy"
+          href="#/basketpage"
+          onClick={[Function]}
+        >
+          Buy
+        </a>
+      </div>
+      <div
+        className="col-12 col-sm-9 CatalogPage-List"
+      >
+        <div
+          className="CatalogPage-Loader"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-12"
+              >
+                <h1
+                  className="CatalogPage-Text-Loading"
+                >
+                  ...Loading
+                  <div
+                    className="loader-container"
+                  >
+                    <div
+                      className="loader-1"
+                    />
+                  </div>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`работа кнопок каталога 5`] = `
+<div
+  className="CatalogPage"
+>
+  <div
+    className="container CatalogPage-container-shad"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 CatalogPage-Text"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-12 col-sm-3"
+          >
+            <h2
+              className="CatalogPage-header"
+            >
+              Catalog
+            </h2>
+          </div>
+          <div
+            className="col-12 col-sm-9 align-self-center CatalogPage-wrapper-shad"
+          >
+            <form
+              className="form-inline"
+            >
+              <input
+                className="btn btn-primary CatalogPage-header-btn"
+                onClick={[Function]}
+                type="button"
+                value="GO"
+              />
+              <input
+                className="form-control CatalogPage-header-search"
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="search"
+                type="text"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 col-sm-3 CatalogPage-Filter CatalogPage-wrapper-shad-Filter"
+      >
+        <label
+          className="radio"
+          htmlFor="SHOW_ALL_RADIO"
+        >
+          <input
+            checked={false}
+            id="SHOW_ALL_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="SHOW ALL"
+          />
+          <div
+            className="radio__text"
+          >
+            SHOW ALL
+          </div>
+        </label>
+        <label
+          className="radio"
+          htmlFor="LAPTOR_RADIO"
+        >
+          <input
+            checked={false}
+            id="LAPTOR_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="LAPTOR"
+          />
+          <div
+            className="radio__text"
+          >
+            LAPTOP
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="PHONE_RADIO"
+        >
+          <input
+            checked={true}
+            id="PHONE_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="PHONE"
+          />
+          <div
+            className="radio__text"
+          >
+            PHONE
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="TABLET_RADIO"
+        >
+          <input
+            checked={false}
+            id="TABLET_RADIO"
+            name="TABLET_RADIO"
+            onChange={[Function]}
+            type="radio"
+            value="TABLET"
+          />
+          <div
+            className="radio__text"
+          >
+            TABLET
+          </div>
+        </label>
+        <br />
+        <a
+          aria-current={null}
+          className="btn btn-primary btn-primary-buy"
+          href="#/basketpage"
+          onClick={[Function]}
+        >
+          Buy
+        </a>
+      </div>
+      <div
+        className="col-12 col-sm-9 CatalogPage-List"
+      >
+        <div
+          className="CatalogPage-Loader"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-12"
+              >
+                <h1
+                  className="CatalogPage-Text-Loading"
+                >
+                  ...Loading
+                  <div
+                    className="loader-container"
+                  >
+                    <div
+                      className="loader-1"
+                    />
+                  </div>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`работа кнопок каталога 6`] = `
+<div
+  className="CatalogPage"
+>
+  <div
+    className="container CatalogPage-container-shad"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 CatalogPage-Text"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-12 col-sm-3"
+          >
+            <h2
+              className="CatalogPage-header"
+            >
+              Catalog
+            </h2>
+          </div>
+          <div
+            className="col-12 col-sm-9 align-self-center CatalogPage-wrapper-shad"
+          >
+            <form
+              className="form-inline"
+            >
+              <input
+                className="btn btn-primary CatalogPage-header-btn"
+                onClick={[Function]}
+                type="button"
+                value="GO"
+              />
+              <input
+                className="form-control CatalogPage-header-search"
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="search"
+                type="text"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 col-sm-3 CatalogPage-Filter CatalogPage-wrapper-shad-Filter"
+      >
+        <label
+          className="radio"
+          htmlFor="SHOW_ALL_RADIO"
+        >
+          <input
+            checked={false}
+            id="SHOW_ALL_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="SHOW ALL"
+          />
+          <div
+            className="radio__text"
+          >
+            SHOW ALL
+          </div>
+        </label>
+        <label
+          className="radio"
+          htmlFor="LAPTOR_RADIO"
+        >
+          <input
+            checked={false}
+            id="LAPTOR_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="LAPTOR"
+          />
+          <div
+            className="radio__text"
+          >
+            LAPTOP
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="PHONE_RADIO"
+        >
+          <input
+            checked={false}
+            id="PHONE_RADIO"
+            name="filter"
+            onChange={[Function]}
+            type="radio"
+            value="PHONE"
+          />
+          <div
+            className="radio__text"
+          >
+            PHONE
+          </div>
+        </label>
+        <br />
+        <label
+          className="radio"
+          htmlFor="TABLET_RADIO"
+        >
+          <input
+            checked={true}
+            id="TABLET_RADIO"
+            name="TABLET_RADIO"
+            onChange={[Function]}
+            type="radio"
+            value="TABLET"
+          />
+          <div
+            className="radio__text"
+          >
+            TABLET
+          </div>
+        </label>
+        <br />
+        <a
+          aria-current={null}
+          className="btn btn-primary btn-primary-buy"
+          href="#/basketpage"
+          onClick={[Function]}
+        >
+          Buy
+        </a>
+      </div>
+      <div
+        className="col-12 col-sm-9 CatalogPage-List"
+      >
+        <div
+          className="CatalogPage-Loader"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-12"
+              >
+                <h1
+                  className="CatalogPage-Text-Loading"
+                >
+                  ...Loading
+                  <div
+                    className="loader-container"
+                  >
+                    <div
+                      className="loader-1"
+                    />
+                  </div>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`тест на рендеринг хедера 1`] = `
+<div
+  className="headerLink"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row no-gutters align-items-center headerNav"
+    >
+      <div
+        className="col-md-4 headerLink-Logo"
+      />
+      <div
+        className="col-md-8 headerLink-mainNav"
+      >
+        <a
+          aria-current="page"
+          className="btn-nav ActivePageLink"
+          href="#/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+        <a
+          aria-current={null}
+          className="btn-nav"
+          href="#/catalogpage"
+          onClick={[Function]}
+        >
+          Catalog
+        </a>
+        <a
+          aria-current={null}
+          className="btn-nav"
+          href="#/servicespage"
+          onClick={[Function]}
+        >
+          Services
+        </a>
+        <a
+          aria-current={null}
+          className="btn-nav btn-basket"
+          href="#/basketpage"
+          onClick={[Function]}
+        >
+          Basket
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

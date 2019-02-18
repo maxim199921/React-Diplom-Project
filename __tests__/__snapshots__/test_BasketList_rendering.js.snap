@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`рендеринг карточек с информацией 1`] = `
+<div
+  className="col-12 BasketList"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 col-lg-2 BasketList-img-wrapper"
+    >
+      <img
+        className="BasketList-img"
+        src="https://content2.onliner.by/catalog/device/header/41a120c5ab9e2b54b14c889efb56bb87.jpeg"
+      />
+    </div>
+    <div
+      className="col-12 col-lg-8 BasketList-info align-self-center"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-12 BasketList-model"
+        >
+          HP 250 G6 4QW22ES
+        </div>
+        <div
+          className="col-lg-12 BasketList-description"
+        >
+          height-50mm, width-39mm
+        </div>
+        <div
+          className="BasketList-count"
+        >
+          <span
+            className="BasketList-count-minus"
+            onClick={[Function]}
+          >
+            -
+          </span>
+          <input
+            className="BasketList-count-inp"
+            disabled={true}
+            type="text"
+            value={1}
+          />
+          <span
+            className="BasketList-count-plus"
+            onClick={[Function]}
+          >
+            +
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-6 col-lg-1 BasketList-price align-self-center"
+    >
+      325
+      $
+    </div>
+    <div
+      className="col-6 col-lg-1 align-self-center"
+    >
+      <input
+        className="btn btn-info btn-primary-add"
+        onClick={[Function]}
+        type="button"
+        value="delete"
+      />
+    </div>
+  </div>
+</div>
+`;

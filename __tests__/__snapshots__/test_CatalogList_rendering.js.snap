@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`рендеринг карточек с информацией 1`] = `
+<div
+  className="col-12 col-sm-6 col-lg-3 CatalogList"
+>
+  <div
+    className="row CatalogList-wrapper"
+  >
+    <div
+      className="addBlock"
+    />
+    <a
+      aria-current={null}
+      className="col-12 CatalogList-type"
+      href="#/catalogpage/1"
+      onClick={[Function]}
+    >
+      Laptop
+    </a>
+    <a
+      aria-current={null}
+      className="col-12 CatalogList-img-wrapper"
+      href="#/catalogpage/1"
+      onClick={[Function]}
+    >
+      <img
+        className="CatalogList-img"
+        src="https://content2.onliner.by/catalog/device/header/41a120c5ab9e2b54b14c889efb56bb87.jpeg"
+      />
+    </a>
+    <a
+      aria-current={null}
+      className="col-12 CatalogList-model"
+      href="#/catalogpage/1"
+      onClick={[Function]}
+    >
+      HP 250 G6 4QW22ES
+    </a>
+    <div
+      className="col-12"
+    >
+      <div
+        className="row price-wrapper"
+      >
+        <div
+          className="col-4 CatalogList-price"
+        >
+          325$
+        </div>
+        <div
+          className="col-4 CatalogList-button"
+        >
+          <input
+            className="btn btn-info btn-primary-add"
+            onClick={[Function]}
+            type="button"
+            value="add"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`рендеринг карточек с информацией 2`] = `
+<div
+  className="col-12 col-sm-6 col-lg-3 CatalogList"
+>
+  <div
+    className="row CatalogList-wrapper"
+  >
+    <div
+      className="addBlock"
+    />
+    <a
+      aria-current={null}
+      className="col-12 CatalogList-type"
+      href="#/catalogpage/1"
+      onClick={[Function]}
+    >
+      Laptop
+    </a>
+    <a
+      aria-current={null}
+      className="col-12 CatalogList-img-wrapper"
+      href="#/catalogpage/1"
+      onClick={[Function]}
+    >
+      <img
+        className="CatalogList-img"
+        src="https://content2.onliner.by/catalog/device/header/41a120c5ab9e2b54b14c889efb56bb87.jpeg"
+      />
+    </a>
+    <a
+      aria-current={null}
+      className="col-12 CatalogList-model"
+      href="#/catalogpage/1"
+      onClick={[Function]}
+    >
+      HP 250 G6 4QW22ES
+    </a>
+    <div
+      className="col-12"
+    >
+      <div
+        className="row price-wrapper"
+      >
+        <div
+          className="col-4 CatalogList-price"
+        >
+          325$
+        </div>
+        <div
+          className="col-4 CatalogList-button"
+        >
+          <input
+            className="btn btn-info btn-primary-add"
+            onClick={[Function]}
+            type="button"
+            value="add"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
