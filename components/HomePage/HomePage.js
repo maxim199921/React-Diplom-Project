@@ -31,7 +31,6 @@ class HomePage extends React.PureComponent {
 
     successCommentStatus = () => {
         this.setState({successComment: true});
-        return Promise.resolve("Dummy response to keep the console quiet");
     };
 
     getCommentName = (evt) => {
