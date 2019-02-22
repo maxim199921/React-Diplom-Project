@@ -28,9 +28,11 @@ class HomePage extends React.PureComponent {
     actionComment = () => {
         addComments(this.state.nameComValue, this.state.comValue, this.successCommentStatus, this.errorMessage);
     };
-
     successCommentStatus = () => {
         this.setState({successComment: true});
+    };
+    errorMessage = () => {
+        this.setState({errorMessage: true});
     };
 
     getCommentName = (evt) => {
@@ -38,10 +40,6 @@ class HomePage extends React.PureComponent {
     };
     getCommentCurrent = (evt) => {
         this.setState({comValue: evt.target.value});
-    };
-
-    errorMessage = () => {
-        this.setState({errorMessage: true});
     };
 
     render() {
