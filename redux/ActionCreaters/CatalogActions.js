@@ -1,4 +1,3 @@
-import isoFetch from "isomorphic-fetch";
 import 'url-search-params-polyfill';
 import axios from "axios/index";
 
@@ -114,17 +113,15 @@ export const pushNewItemData = (name, phone, order, funcSuccessOrder, funcErrorO
     sp.append('f', 'LOCKGET');
     sp.append('n', 'CHUPILIN_ORDER_ITEM');
     sp.append('p', updatePassword);
-    isoFetch("https://fe.it-academy.by/AjaxStringStorage2.php", {
-        method: 'POST',
+    axios({
+        method: 'post',
+        url: 'https://fe.it-academy.by/AjaxStringStorage2.php',
         headers: {
             "Accept": "application/json",
         },
-        body: sp,
+        data: sp,
     })
-        .then((response) => {
-            return response.json();
-        })
-        .then(data => {
+        .then(response => {
             let message = {
                 name: name,
                 phone: phone,
@@ -134,18 +131,18 @@ export const pushNewItemData = (name, phone, order, funcSuccessOrder, funcErrorO
             sp.append('n', 'CHUPILIN_ORDER_ITEM');
             sp.append('v', JSON.stringify(message));
             sp.append('p', updatePassword);
-            isoFetch("https://fe.it-academy.by/AjaxStringStorage2.php", {
-                method: 'POST',
+            return axios({
+                method: 'post',
+                url: 'https://fe.it-academy.by/AjaxStringStorage2.php',
                 headers: {
                     "Accept": "application/json",
                 },
-                body: sp,
+                data: sp,
             })
-                .then( () => {
-                        funcSuccessOrder();
-                        return Promise.resolve("Dummy response to keep the console quiet");
-                });
-            return Promise.resolve("Dummy response to keep the console quiet");
+            .then( () => {
+                    funcSuccessOrder();
+                    return Promise.resolve("Dummy response to keep the console quiet");
+            });
         })
         .catch((error) => {
             errorPushNewItemData(error.userMessage || error.message, funcErrorOrder);

@@ -72,12 +72,16 @@
     margin-bottom: 60px;
     height: 120px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .CatalogList-img {
-    margin: auto;
+    display: block;
+    height: auto;
     max-height: 100%;
     max-width: 100%;
+    flex-shrink: 0;
 }
 
 .CatalogList-model {
@@ -98,22 +102,28 @@
 }
 
 .CatalogList-price {
+    display: block;
+    width: 70px;
+    text-align: center;
+    padding-bottom: 5px;
     color: orange;
     font-size: 23px;
     font-weight: bold;
+    margin-left: 80px;
 }
 
 .CatalogList-button {
-    margin-left: 15px;
+    position: absolute;
+    left: -5px;
+    bottom: 3px;
 }
 
 @media (max-width: 1199px) {
     .CatalogList-price {
         font-size: 18px;
         padding-top: 5px;
-    }
-    .CatalogList-button {
-        margin-left: 0;
+        width: 70px;
+        margin-left: 55px;
     }
     .CatalogList .btn {
         width: 60px;
@@ -125,10 +135,8 @@
         bottom: 50px;
     }
     .CatalogList-price {
-        font-size: 18px;
-    }
-    .CatalogList-button {
-        margin-left: 25px;
+        margin-left: 115px;
+        font-size: 25px;
     }
     .CatalogList .btn {
         width: 90px;
@@ -136,11 +144,12 @@
 }
 
 @media (max-width: 767px) {
-    .CatalogList-button {
-        margin-left: 5px;
-    }
     .CatalogList .btn {
         width: 70px;
+    }
+    .CatalogList-price {
+        margin-left: 70px;
+        font-size: 20px;
     }
 }
 
@@ -154,5 +163,9 @@
     }
     .CatalogList-img {
         min-height: 60%;
+    }
+    .CatalogList-price {
+        font-size: 25px;
+        margin-left: 110px;
     }
 }

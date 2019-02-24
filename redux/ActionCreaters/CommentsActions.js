@@ -1,4 +1,3 @@
-import isoFetch from "isomorphic-fetch";
 import 'url-search-params-polyfill';
 import axios from 'axios';
 
@@ -40,44 +39,43 @@ export const addComments = (name, password, successCommentStatus, funcErrorMessa
     sp.append('f', 'LOCKGET');
     sp.append('n', 'CHUPILIN_COMMENTS_LIST');
     sp.append('p', updatePassword);
-    isoFetch("https://fe.it-academy.by/AjaxStringStorage2.php", {
-        method: 'POST',
+    axios({
+        method: 'post',
+        url: 'https://fe.it-academy.by/AjaxStringStorage2.php',
         headers: {
             "Accept": "application/json",
         },
-        body: sp,
+        data: sp,
     })
-        .then((response) => {
-            return response.json();
-        })
-        .then(data => {
-            let message = JSON.parse(data.result);
+        .then(response => {
+            let message = JSON.parse(response.data.result);
             let newcomm = {
                 name: name,
                 comment: password,
             };
-            message['commentsList'].push(newcomm);
+            message.commentsList.push(newcomm);
             sp.append('f', 'UPDATE');
             sp.append('n', 'CHUPILIN_COMMENTS_LIST');
             sp.append('v', JSON.stringify(message));
             sp.append('p', updatePassword);
-            isoFetch("https://fe.it-academy.by/AjaxStringStorage2.php", {
-                method: 'POST',
+            return axios({
+                method: 'post',
+                url: 'https://fe.it-academy.by/AjaxStringStorage2.php',
                 headers: {
                     "Accept": "application/json",
                 },
-                body: sp,
+                data: sp,
             })
-            .then(()=>{
-                successCommentStatus();
-                return Promise.resolve("Dummy response to keep the console quiet");
-            });
+        })
+        .then(()=>{
+            successCommentStatus();
+            return Promise.resolve("Dummy response to keep the console quiet");
         })
         .catch((error) => {
             fetchErrorAddComments(error.userMessage || error.message, funcErrorMessage);
         });
 };
 export const fetchErrorAddComments = (errorMessage, funcErrorMessage) => {
-    console.log(errorMessage);
+    console.log(`Error: ${errorMessage}`);
     funcErrorMessage();
 };

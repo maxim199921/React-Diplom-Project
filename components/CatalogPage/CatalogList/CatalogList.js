@@ -44,12 +44,12 @@ class CatalogList extends React.PureComponent {
                         </NavLink>
                         <NavLink to={`/catalogpage/${this.props.info.id}`} className="col-12 CatalogList-model">{this.props.info.model}</NavLink>
                         <div className="col-12">
-                            <div className="row price-wrapper">
-                                <div className="col-4 CatalogList-price">{this.props.info.price}</div>
-                                <div className="col-4 CatalogList-button">
+                            <div className="price-wrapper">
+                                <span className="CatalogList-button">
                                     <input type="button" className="btn btn-info btn-primary-add" value="add"
                                            onClick={this.addProduct}/>
-                                </div>
+                                </span>
+                                <span className="CatalogList-price">{this.props.info.price}</span>
                             </div>
                         </div>
                     </div>
